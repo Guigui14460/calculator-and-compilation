@@ -1,0 +1,5 @@
+int i
+int x
+x=42
+for (i=1;i < x; i=i+1) write(i)
+

@@ -1,0 +1,7 @@
+float x
+float f() {
+  return 40.
+}
+x=f()+2.
+write(x)
+

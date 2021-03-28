@@ -1,0 +1,13 @@
+int nb
+int d
+nb = 42
+d = 0
+
+repeat {
+    nb = nb/2
+    d = d+1
+}
+until (nb < 1)
+
+write(d)
+

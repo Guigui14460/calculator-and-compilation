@@ -1,0 +1,11 @@
+int i
+int xi
+
+repeat {
+    xi = xi+i
+    i = i+1
+}
+until (i > 42)
+
+write(xi)
+

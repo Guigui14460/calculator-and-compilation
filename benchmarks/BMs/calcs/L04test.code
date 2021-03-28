@@ -1,0 +1,13 @@
+int z
+int g(int x) {
+  return x*2
+}
+int f(int i, int j) {
+  write(i) 
+  write(j)
+  while (i < j+1) i = g(j)
+  write(i)
+  return i
+}
+z=f(3, 5)
+write(z)

@@ -1,0 +1,1 @@
+./AutoCor.sh ../Calculette.g4 ../AdresseType.java ../TableSymboles.java ../TablesSymboles.java ../CalculetteUtils.java

@@ -1,0 +1,8 @@
+float i=1.3
+float k
+int j=2
+
+read(k)
+write(j-1)
+write(i)
+write(k)

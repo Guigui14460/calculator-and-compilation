@@ -1,0 +1,6 @@
+int y
+int g(int x) {
+	 return x*2
+}
+y=g(11)+g(5)*2
+write(y)

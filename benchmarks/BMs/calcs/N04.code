@@ -1,0 +1,28 @@
+int n
+int N
+int trace
+
+int mod (int n, int N){
+	 return n-n/N*N
+}
+
+int mod2 (int n){
+	 return mod(n,2)
+}
+
+n=42
+trace=n; write(trace)
+
+trace=n-n/2*2 ; write(trace)
+trace=42-42/2*2 ; write(trace)
+trace=mod(n,2) ; write(trace)
+trace=mod2(n) ; write(trace)
+n=43
+trace= mod(42,2) ; write(trace)
+trace = mod2(42) ; write(trace)
+
+write(n)
+trace=n-n/2*2 ; write(trace)
+trace=43-43/2*2 ; write(trace) 
+trace=mod(43,2) ; write(trace)
+trace=mod2(n) ; write(trace)

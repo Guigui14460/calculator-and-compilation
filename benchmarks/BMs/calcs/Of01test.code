@@ -1,0 +1,3 @@
+float y
+read(y)
+write(5.3 * y + 2.)

@@ -1,0 +1,19 @@
+int i
+int p
+float r
+
+float babylon (float s, int prec) {
+      r=s/2.
+      for(i=1; i < prec; i=i+1) {
+               write(r)
+               r=(r+s/r)/2.
+      }
+      return r
+}
+
+p=10
+
+write(babylon(25.,p))
+
+write(babylon(2.,p))
+

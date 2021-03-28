@@ -1,0 +1,15 @@
+int i
+int j
+int x
+int xi=0
+int xj=0
+x=42
+for (i=1;i < x; i=i+1) {
+  xi=xi+i
+  write(i)
+  for (j=1;j < x; j=j+1) {
+    xj=xj+j
+    write(j)	
+  }
+}
+

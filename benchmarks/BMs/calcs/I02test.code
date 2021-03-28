@@ -1,0 +1,16 @@
+int u = 1
+int z = 42
+if (z < u) write(u)  
+   else write(z)
+if (u >= z) write(u)
+   else write(z)
+if (u-1 == z) write(u)
+   else write(z)
+if (false || z > u)  write(z)
+   else write(u)
+if (true  &&  z > u)  write(z)
+   else write(u)
+if (! true) write(z)
+if (false || ! false  &&  true) write(u) 
+	else write(z)
+

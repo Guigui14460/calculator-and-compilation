@@ -1,0 +1,8 @@
+int x
+int y = 0 
+int z = 1
+int t = 2
+read(x)
+if (x == 0)  write(y)
+else if (x == 1)  write(z)
+     else  write(t)

@@ -1,0 +1,10 @@
+int i = 0
+while ( false || i <= 40) i = i + 2
+write(i)
+i = 100
+while (! i == 100 || false) i = i - 2
+write(i)
+i = 42
+while (false || ! true || true  &&  ! i == 42) i = i - 2
+write(i)
+

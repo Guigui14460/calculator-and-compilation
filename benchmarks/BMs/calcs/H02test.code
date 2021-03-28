@@ -1,0 +1,14 @@
+int x
+int y = 110 
+int z = 54
+int and = 0
+int or = 0
+read(x)
+while (x == 0  &&  and == 0){
+  write(y)
+  and=1
+}
+while (x!= 0  &&  or == 0){
+  write(z)
+  or=1
+}

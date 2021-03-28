@@ -1,0 +1,6 @@
+float y
+float g(float x) {
+	 return x*2.
+}
+y=g(11.)+g(5.)*2.
+write(y)

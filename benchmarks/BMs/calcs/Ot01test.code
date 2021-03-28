@@ -1,0 +1,36 @@
+int x
+float f
+bool b
+
+b = false
+x = (int) b
+f = (float) b
+write(b)
+write(x)
+write(f)
+
+b = true
+x = (int) b
+f = (float) b
+write(b) 
+write(x) 
+write(f)
+
+f = 42.
+x = (int) f
+b = (bool) f
+write(f) 
+write(x) 
+# Le comportement en écriture d'une variable booléenne intialisée autrement que par true et false n'est pas normé
+# On insiste juste pour que le cast d'une expression en tant que  booléen se comporte comme false ssi l'expression vaut 0 (int) ou 0. (float) 
+if ( b ) write(1) 
+else write(0)
+
+f = 0.
+x = (int) f
+b = (bool) f
+write(f)
+write(x) 
+# Le comportement en écriture d'une variable booléenne intialisée autrement que par true et false n'est pas normé
+if ( ! b ) write(0) 
+else write(1) 

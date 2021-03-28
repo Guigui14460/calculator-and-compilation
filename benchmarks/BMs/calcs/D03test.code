@@ -1,0 +1,8 @@
+int x
+/* Ce fichier contient 
+des exemples de 
+commentaires */
+x=42 // La réponse à tout
+/* Et on affiche la réponse **/
+write(x) 
+

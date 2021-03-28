@@ -1,0 +1,3 @@
+int x = 21
+while(false) x=x-1;
+write(2*x)

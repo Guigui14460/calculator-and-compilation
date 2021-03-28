@@ -1,0 +1,25 @@
+int i
+int p
+float r
+
+float babylon (float s, int prec) {
+      r=s/2.
+      for(i=1; i < prec; i=i+1) {
+               r=(r+s/r)/2.
+      }
+      return r
+}
+
+float pi (int prec) {
+      r=0.
+      for(i=1; i < prec; i=i+1) {
+               r=r+1./((float)i*i)
+      }
+      return babylon (6.*r,prec)
+}
+
+
+write(pi(10))
+write(pi(100))
+write(pi(1000))
+

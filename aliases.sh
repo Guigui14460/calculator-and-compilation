@@ -1,0 +1,17 @@
+export CLASSPATH=".:lib/antlr.jar:$CLASSPATH"
+alias antlr="java org.antlr.v4.Tool"
+alias antlr-compile="javac *.java"
+alias grun="java org.antlr.v4.gui.TestRig"
+alias antlr4-grun="java org.antlr.v4.runtime.misc.TestRig"
+alias mvap-jar="java org.antlr.v4.Tool MVaP.g4 && javac MVaPAssembler.java CBaP.java && jar cfm MVaP.jar META-INF\MANIFEST.MF *.class"
+alias mvap-compile="java -cp \".:lib/antlr.jar:lib/MVaP-unix.jar\" MVaPAssembler"
+alias mvap-run="java -jar lib/MVaP-unix.jar"
+alias mvap-debug="java -jar lib/MVaP-unix.jar -d"
+
+alias antlr-all="java org.antlr.v4.Tool Calculette.g4 && echo OK && javac *.java && echo OK && java MainCalculette"
+alias mvap-all-run="java -cp \".:lib/antlr.jar:lib/MVaP-unix.jar\" MVaPAssembler test.mvap && echo OK && java -jar lib/MVaP-unix.jar test.mvap.cbap"
+alias mvap-all-debug="java -cp \".:lib/antlr.jar:lib/MVaP-unix.jar\" MVaPAssembler test.mvap && echo OK && java -jar lib/MVaP-unix.jar -d test.mvap.cbap"
+
+alias export-package="rm -rf archive && mkdir archive && cp Calculette.g4 archive && cp AdresseType.java archive && cp CalculetteUtils.java archive && cp TablesSymboles.java archive && cp TableSymboles.java archive && cp ReadMe.txt archive && cp Who.txt archive"
+alias generate-archive="tar -cf archive.tar.gz archive"
+alias test="cd benchmarks/ && ./AutoCor.sh ../Calculette.g4 ../AdresseType.java ../TableSymboles.java ../TablesSymboles.java ../CalculetteUtils.java && cd .."

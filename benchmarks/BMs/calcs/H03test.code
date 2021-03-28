@@ -1,0 +1,4 @@
+int i
+read(i)
+if ( i<10 && i<100 || i>5) write(i+1)
+write(0)

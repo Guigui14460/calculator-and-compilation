@@ -1,0 +1,9 @@
+int x = 7
+while(false) {
+write(x)
+x=x+1
+}
+x = x*x-1
+while(false) write(x);
+write(x-6)
+x=x-1
